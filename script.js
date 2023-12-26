@@ -8,7 +8,22 @@
 
 //conditionals();
 
-multipleConditions();
+//multipleConditions();
+
+nullCoalescing();
+
+function nullCoalescing() {
+    
+    let height = prompt("Enter the height of your rectangle:");
+    let width = prompt(`The height of your rectangle is: ${height}, Enter the width of your rectangle:`);
+
+    // important: use parentheses
+    // height and width are defined. Therefor, area will be calculated using user input
+    let area = (height ?? 100) * (width ?? 50);
+
+    alert(`The area of the rectangle is: ${area}`); // 5000
+
+}
 
 function multipleConditions() {
     
