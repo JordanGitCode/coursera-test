@@ -10,15 +10,76 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/myStyle.css">
+        <script defer src="js/bootstrap.bundle.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Socials
+                                </a>
+                            <ul class="dropdown-menu dropdown-menu-dark bg-dark" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Instagram</a></li>
+                                <li><a class="dropdown-item" href="#">LinkedIn</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         
-        
-        
-        <script src="script.js" async defer></script>
+        <div class="container-fluid">
+            <img src="images/ProfilePicture.jpg" class="img-fluid" style="width: 15%;">
+        </div>
+
+        <div class="container-fluid">
+            
+            <table class="table table-hover">
+                <thead>
+                    <th>Product name</th>
+                    <th>Vendor</th>
+                    <th>Cost</th>
+                    <th>Selling Price</th>
+                    <th>link</th>
+                </thead>
+                <tr>
+                    <td>RGB Bluetooth Speaker</td>
+                    <td>Entertainment</td>
+                    <td>R450</td>
+                    <td>R850</td>
+                    <td><a href="https://google.com">Click Here</a></td>
+                </tr>
+                <tr>
+                    <td>Wire Lighting with Speaker Strips</td>
+                    <td>Entertainment</td>
+                    <td>R500</td>
+                    <td>R999</td>
+                    <td><a href="https://google.com">Click Here</a></td>
+                </tr>
+            </table>
+
+        </div>
     </body>
 </html>

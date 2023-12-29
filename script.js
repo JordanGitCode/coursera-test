@@ -10,7 +10,7 @@
 
 //multipleConditions();
 
-nullCoalescing();
+//nullCoalescing();
 
 function nullCoalescing() {
     
