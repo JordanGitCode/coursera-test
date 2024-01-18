@@ -1,33 +1,15 @@
-.img-circle {
-    border-radius: 50%;
-    position: relative;
-    height: 100px;
-    width: 100px;
-    overflow: hidden;
-    float: left;
-    margin-left: auto;
-    margin-right: auto;
+#prof-image {
+    margin: 2%;
 }
 
-.img-circle.hor img {
-    position: absolute;
-    left: 50%;
-    width: auto;
-    height: 117px;
-    transform: translateX(-50%);
+#flex-container {
+    flex-wrap: wrap;
 }
 
-.img-circle.vert img {
-    position: absolute;
-    top: 50%;
-    width: 117px;
-    height: auto;
-    transform: translateY(-50%);
+#edu {
+    background-color: orange;
 }
 
-.cropped-ofp {
-    width: 150px; 
-    height: 150px; 
-    object-fit: cover;
-    object-position: 25% 25%; 
+#awa {
+    background-color: turquoise;
 }
