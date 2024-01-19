@@ -1,15 +1,3 @@
-#prof-image {
-    margin: 2%;
-}
-
-#flex-container {
-    flex-wrap: wrap;
-}
-
-#edu {
-    background-color: orange;
-}
-
-#awa {
-    background-color: turquoise;
+#info-card {
+    background-color: cadetblue !important;
 }
