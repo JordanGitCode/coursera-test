@@ -12,6 +12,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/aboutCss.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
@@ -28,27 +29,43 @@
         </ul>
     </nav>
 
-    <div class="table-view">
-        <table>
-            <tr>
-                <th>Company</th>
-                <th>Contact</th>
-                <th>Country</th>
-            </tr>
-            <tr>
-                <td>Alfreds Futterkiste</td>
-                <td>Maria Anders</td>
-                <td>Germany</td>
-            </tr>
-            <tr>
-                <td>Centro comercial Moctezuma</td>
-                <td>Francisco Chang</td>
-                <td>Mexico</td>
-            </tr>
-        </table>
+    <div class="carousel">
+        <button class="carousel__button carousel__button--left is-hidden">
+            <img src="node_modules/bootstrap-icons/icons/arrow-left-circle-fill.svg" alt="">
+        </button>
+        <div class="carousel__track-container">
+            <ul class="carousel__track">
+                <li class="carousel__slide current-slide">
+                    <img class="carousel__image" src="images/Cool-pic-1.jpg" alt="">
+                </li>
+                <li class="carousel__slide">
+                    <img class="carousel__image" src="images/Cool-pic-2.jpg" alt="">
+                </li>
+                <li class="carousel__slide">
+                    <img class="carousel__image" src="images/Cool-pic-3.jpg" alt="">
+                </li>
+            </ul>
+        </div>
+        <button class="carousel__button carousel__button--right">
+            <img src="node_modules/bootstrap-icons/icons/arrow-right-circle-fill.svg" alt="">
+        </button>
+        <div class="carousel__nav">
+            <button class="carousel__indicator current-slide"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+        </div>
     </div>
 
-    <script src="script.js" async defer></script>
+    <div class="container">
+        <div class="hero">
+
+        </div>
+        <div class="hero">
+            
+        </div>
+    </div>
+
+    <script src="carousel.js" async defer></script> <!-- Add your carousel JavaScript file -->
 </body>
 
 </html>
